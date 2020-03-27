@@ -121,10 +121,10 @@ audio {
 }
 
 .wrapper.firstEQ .steps {
-    width: 307px;
+    width: 308px;
     height: 461px;
-    background: url(../images/process_firstEQ.png);
-    background-size: cover;
+    background-image: url(../images/process_firstEQ.png);
+    background-size: contain;
     margin: 65px 0 0 38px;
 }
 
