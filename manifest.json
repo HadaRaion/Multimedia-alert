@@ -1,0 +1,14 @@
+{
+  "short_name": "Mobile Alert",
+  "name": "Multimedia Mobile Alert - Earthquake case.",
+  "icons": [
+    {
+      "src": "./assets/images/111@3x.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://hadaraion.github.io/mobile-alerts/index.html",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}

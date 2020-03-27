@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
+    <title>Multimedia Mobile Alert</title>
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/animate.min.css">
+    <!-- jquery -->
+    <script src="./assets/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/lib/jquery.mobile.custom.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper p1">
+        <audio id="myAudio">
+            <source src="./assets/media/alert_sound.mp3" type="audio/mpeg">
+        </audio>
+        <header>
+            <nav id=main_menu>
+                <a class="home" href="./index.html"></a>
+                <h1 class="title" id="p1Start">P1: Detection</h1>
+                <a class="setting" href="./setting.html"></a>
+            </nav>
+        </header>
+        <div class="issued">
+            ※ Source: KMA
+        </div>
+        <div class="board1">
+            <div class="eqTime"></div>
+            <div class="location"></div>
+        </div>
+        <div class="board2">
+        </div>
+        <div class="map">
+        </div>
+        <svg id="radio" class="p1radio" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <circle class="animate" cx="50%" cy="50%" r="7%" />
+        </svg>
+        <div class="locationIcon"></div>
+        <div class="evacuationText">Evacuate immediately</div>
+        <div class="eqPoint"></div>
+        <button onclick="pauseAudio(); stopVibrations()" type="button" id="pause"></button>
+        <div id="icon_off"></div>
+    </div>
+    <script>
+        $("div.wrapper").on("swipeleft", swipeleftHandler);
+
+        function swipeleftHandler(event) {
+            location.href = "./p2.html";
+        }
+
+        setTimeout(function() {
+            alert("Tap the text on the yellow bar above to start simulation.");
+        }, 300);
+    </script>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>

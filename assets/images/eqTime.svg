@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="48" viewBox="0 0 124 48">
+    <g id="prefix__그룹_639" data-name="그룹 639" transform="translate(-23 -69)">
+        <path id="prefix__선_3" d="M0 0L123.5 0" data-name="선 3" transform="translate(23.5 116.5)" style="fill:none;stroke:#858585"/>
+        <text id="prefix__Earthquake_detected" data-name="Earthquake detected" transform="translate(42 81)" style="font-size:13px;font-family:RobotoCondensed-Regular,Roboto Condensed;letter-spacing:-.01em;fill:#686868">
+            <tspan x="0" y="0">Earthquake detected</tspan>
+        </text>
+        <path id="prefix__패스_858" d="M2.1 2.1A6.355 6.355 0 0 1 7 0a6.355 6.355 0 0 1 4.9 2.1A6.355 6.355 0 0 1 14 7a6.355 6.355 0 0 1-2.1 4.9A6.355 6.355 0 0 1 7 14a6.355 6.355 0 0 1-4.9-2.1A6.986 6.986 0 0 1 0 7a6.355 6.355 0 0 1 2.1-4.9zm8.05 8.05l.817-.817L8.05 6.417 7 1.75H5.833V7a1.059 1.059 0 0 0 .35.817.407.407 0 0 0 .233.117z" data-name="패스 858" transform="translate(23 69)" style="fill:#686868"/>
+    </g>
+</svg>

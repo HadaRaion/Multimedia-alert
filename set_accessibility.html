@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
+    <title>Multimedia Mobile Alert</title>
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/animate.min.css">
+    <!-- jquery -->
+    <script src="./assets/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/lib/jquery.mobile.custom.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper set accessibility" id="set2wrapper">
+        <header>
+            <nav id=main_menu>
+                <a class="home" href="./index.html"></a>
+                <h1 class="title change">User Settings</h1>
+                <a class="setting" href="./setting.html"></a>
+            </nav>
+        </header>
+        <div class="container" id="set2container">
+            <div class="contents left">
+
+                <h1 class="title">Accessibility</h1>
+                <h2 class="sub-title">For users with sight and hearing impairments</h2>
+                <ul>
+                    <li class="sound">
+                        <div class="icon"></div>
+                        <h2>Would you like to activate<br>
+                            the voice alert program?</h2>
+                        <a class="button" href="set1_visual_p3.html">YES</a>
+                    </li>
+
+                    <li class="light">
+                        <div class="icon"></div>
+                        <h2>Would you like to activate<br>
+                            vibration and lights?</h2>
+                        <a class="button" id="set2yes">YES</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="contents right">
+                <div class="issued">
+                    ※ Source: KMA
+                </div>
+                <div class="board1">
+                    <div class="eqTime"></div>
+                    <div class="location"></div>
+                </div>
+                <div class="board2 animated slideInRight">
+                    <div class="magnitude">
+                        <div class="title">Estimated Intensity</div>
+                        <div class="estMagnitude">3</div>
+                    </div>
+                    <div class="estTime">
+                        <div class="title-sec">To hit in</div>
+                        <div id="set2countdown" class="countdown">10</div>
+                        <div class="later">sec.</div>
+                    </div>
+                </div>
+                <div class="map">
+                </div>
+                <svg id="radio" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <circle class="animate" cx="50%" cy="50%" r="10%" />
+                    <circle class="animate" cx="50%" cy="50%" r="20%" />
+                    <circle class="animate" cx="50%" cy="50%" r="30%" />
+                    <circle class="animate" cx="50%" cy="50%" r="40%" />
+                    <circle class="animate" cx="50%" cy="50%" r="50%" />
+                </svg>
+                <div class="locationIcon"></div>
+                <div class="evacuationText">Evacuate immediately</div>
+                <div class="eqPoint"></div>
+                <button onclick="stopVibrations()" type="button" id="pause"></button>
+                <div id="icon_off"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>

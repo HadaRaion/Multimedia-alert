@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="284" height="365.67" viewBox="0 0 284 365.67">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#2d2d2d;font-size:17px;font-family:Roboto-Bold,Roboto;font-weight:700}.prefix__cls-10{fill:none}.prefix__cls-4{stroke:#2d2d2d;fill:#fc0;stroke-width:2px}.prefix__cls-9{stroke:none}
+        </style>
+    </defs>
+    <g id="prefix__그룹_619" data-name="그룹 619" transform="translate(-38 -105.33)">
+        <text id="prefix__Detection" class="prefix__cls-1" transform="translate(131 402)">
+            <tspan x="0" y="0">Detection</tspan>
+        </text>
+        <text id="prefix__Situation_Board" class="prefix__cls-1" data-name="Situation Board" transform="translate(131 460)">
+            <tspan x="0" y="0">Situation Board</tspan>
+        </text>
+        <g id="prefix__그룹_600" data-name="그룹 600" transform="translate(23 134)">
+            <path id="prefix__패스_1190" d="M0 0v19.2" data-name="패스 1190" transform="translate(84.5 275)" style="stroke-width:6px;stroke:#2d2d2d;fill:none"/>
+            <path id="prefix__패스_1186" d="M157.5 369.119l-7.361-10.689h14.516z" data-name="패스 1186" transform="translate(-73.141 -68.031)" style="fill:#2d2d2d"/>
+        </g>
+        <g id="prefix__타원_251" class="prefix__cls-4" data-name="타원 251" transform="translate(90 437)">
+            <circle cx="17" cy="17" r="17" class="prefix__cls-9"/>
+            <circle cx="17" cy="17" r="16" class="prefix__cls-10"/>
+        </g>
+        <text id="prefix__P4" class="prefix__cls-1" transform="translate(107 460)">
+            <tspan x="-10.359" y="0">P4</tspan>
+        </text>
+        <g id="prefix__타원_251-2" class="prefix__cls-4" data-name="타원 251" transform="translate(90 379)">
+            <circle cx="17" cy="17" r="17" class="prefix__cls-9"/>
+            <circle cx="17" cy="17" r="16" class="prefix__cls-10"/>
+        </g>
+        <text id="prefix__P1" class="prefix__cls-1" transform="translate(107 402)">
+            <tspan x="-10.359" y="0">P1</tspan>
+        </text>
+        <path id="prefix__선_29" d="M0 0L158 0" data-name="선 29" transform="translate(102.5 329.5)" style="stroke-linecap:round;stroke-width:6px;stroke:#2d2d2d;fill:none"/>
+        <text id="prefix__Weak_Earthquake" data-name="Weak Earthquake" transform="translate(180 315)" style="font-size:20px;font-family:Roboto-Medium,Roboto;font-weight:500;fill:#2d2d2d">
+            <tspan x="-78.276" y="0">Weak Earthquake</tspan>
+        </text>
+        <text id="prefix__Multimedia_Alert_Process" data-name="Multimedia Alert Process" transform="translate(38 105.33)" style="font-size:35px;font-family:Teko-Bold,Teko;font-weight:700;fill:#2d2d2d">
+            <tspan x="28.933" y="34">Multimedia Alert</tspan><tspan style="font-size:52px"><tspan x="60.568" y="82">Process</tspan></tspan>
+        </text>
+    </g>
+</svg>

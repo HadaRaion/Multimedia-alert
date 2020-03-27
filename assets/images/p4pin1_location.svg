@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="273.58" height="33" viewBox="0 0 273.58 33">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:none;stroke:#858585}
+        </style>
+    </defs>
+    <g id="prefix__그룹_621" data-name="그룹 621" transform="translate(-42.096 -430)">
+        <path id="prefix__패스_276" d="M8.974 12.948a3.8 3.8 0 0 0 3.811-3.811A3.921 3.921 0 0 0 8.974 5.19 3.8 3.8 0 0 0 5.163 9a4.017 4.017 0 0 0 3.811 3.948zM2.577 2.6a9.047 9.047 0 0 1 12.794 12.8l-6.4 6.4-6.4-6.4a9.294 9.294 0 0 1 .006-12.8z" data-name="패스 276" transform="translate(45.975 434.05)" style="fill-rule:evenodd;fill:#122277"/>
+        <text id="prefix__Current_location" data-name="Current location" transform="translate(71 444)" style="font-size:12px;font-family:RobotoCondensed-Bold,Roboto Condensed;font-weight:700;fill:#122277">
+            <tspan x="0" y="0">Current</tspan><tspan x="0" y="11">location</tspan>
+        </text>
+        <path id="prefix__선_3" d="M0 0L231.213 0" class="prefix__cls-3" data-name="선 3" transform="translate(42.096 461.5)"/>
+        <path id="prefix__선_3-2" d="M0 0L31.918 0" class="prefix__cls-3" data-name="선 3" transform="translate(283.758 461.5)"/>
+        <text id="prefix__Jung-gu_Seoul" data-name="Jung-gu, Seoul" transform="translate(127 452)" style="font-family:Teko-Medium,Teko;font-weight:500;font-size:23px;fill:#122277">
+            <tspan x="0" y="0">Jung-gu, Seoul</tspan>
+        </text>
+        <text id="prefix___3_3" data-name="3.3" transform="translate(289 453)" style="font-size:22px;font-family:Teko-Medium,Teko;font-weight:500;fill:#122277">
+            <tspan x="0" y="0">3.3</tspan>
+        </text>
+    </g>
+</svg>

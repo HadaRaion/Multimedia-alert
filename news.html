@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
+    <title>Multimedia Mobile Alert</title>
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/animate.min.css">
+    <!-- jquery -->
+    <script src="./assets/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/lib/jquery.mobile.custom.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper autoHeight news">
+        <header>
+            <nav id=main_menu>
+                <a class="home" href="./index.html"></a>
+                <h1 class="title">Breaking News</h1>
+                <a class="setting" href="./setting.html"></a>
+            </nav>
+        </header>
+        <div class="contents">
+
+            <div class="mainNews video">
+                <video id="video" autoplay controls>
+                    <source src="./assets/media/news1_new_m1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <ul class="subNews">
+                <li id="moveToArticle" class="subNewsList">
+                    <div class="thumbnail"></div>
+                    <div class="text">
+                        <h2 class="title">Earthquake with magnitude 5.5 hits 6 km north of Pohang</h2>
+                        <h5><span class="name">KBS</span> | <span class="date">February 13, 2019</span></h5>
+                    </div>
+                </li>
+                <li class="subNewsList">
+                    <div class="thumbnail"></div>
+                    <div class="text">
+                        <h2 class="title">Greater damage than last Gyeongju earthquake</h2>
+                        <h5><span class="name">MBC</span> | <span class="date">February 14, 2019</span></h5>
+                    </div>
+                </li>
+                <li class="subNewsList">
+                    <div class="thumbnail"></div>
+                    <div class="text">
+                        <h2 class="title">Aid pours into Pohang to help reconstruction</h2>
+                        <h5><span class="name">SBS</span> | <span class="date">February 15, 2019</span></h5>
+                    </div>
+                </li>
+                <li class="subNewsList">
+                    <div class="thumbnail"></div>
+                    <div class="text">
+                        <h2 class="title">Gyeongju earthquake triggered Pohang…</h2>
+                        <h5><span class="name">YTN</span> | <span class="date">February 13, 2019</span></h5>
+                    </div>
+                </li>
+                <li class="subNewsList">
+                    <div class="thumbnail"></div>
+                    <div class="text">
+                        <h2 class="title">Visiting earthquake evacuees during Korean Thanks-…</h2>
+                        <h5><span class="name">JTBC</span> | <span class="date">February 14, 2019</span></h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>

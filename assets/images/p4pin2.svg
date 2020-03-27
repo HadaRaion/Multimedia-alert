@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#133d25;fill-rule:evenodd}
+        </style>
+    </defs>
+    <g id="pin" transform="translate(-200 -435)">
+        <path id="사각형_1404" d="M0 0h16v16H0z" class="cls-1" data-name="사각형 1404" transform="translate(200 435)"/>
+        <path id="패스_276" d="M6.23 8.962A2.638 2.638 0 0 0 8.872 6.32 2.719 2.719 0 0 0 6.23 3.583a2.638 2.638 0 0 0-2.643 2.642A2.785 2.785 0 0 0 6.23 8.962zM1.794 1.79a6.272 6.272 0 0 1 8.87 8.87L6.23 15.1l-4.436-4.44a6.443 6.443 0 0 1 0-8.87z" class="cls-2" data-name="패스 276" transform="translate(201.079 435.05)"/>
+    </g>
+</svg>

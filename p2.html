@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
+    <title>Multimedia Mobile Alert</title>
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/animate.min.css">
+    <!-- jquery -->
+    <script src="./assets/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/lib/jquery.mobile.custom.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper p2">
+        <audio id="myAudio" autoplay>
+            <source src="./assets/media/alert_sound.mp3" type="audio/mpeg">
+        </audio>
+        <header>
+            <nav id=main_menu>
+                <a class="home" href="./index.html"></a>
+                <h1 class="title">P2: Earthquake Approaching</h1>
+                <a class="setting" href="./setting.html"></a>
+            </nav>
+        </header>
+        <div class="issued">
+            ※ Source: KMA
+        </div>
+        <div class="board1">
+            <div class="eqTime"></div>
+            <div class="location"></div>
+        </div>
+        <div class="board2 animated slideInRight">
+            <div class="magnitude">
+                <div class="title">Estimated Intensity</div>
+                <div class="estMagnitude">3</div>
+            </div>
+            <div class="estTime">
+                <div class="title-sec">To hit in</div>
+                <div id="countdown" class="countdown">10</div>
+                <div class="later">sec.</div>
+            </div>
+        </div>
+        <div class="map">
+        </div>
+        <svg id="radio" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <circle class="animate" cx="50%" cy="50%" r="10%" />
+            <circle class="animate" cx="50%" cy="50%" r="20%" />
+            <circle class="animate" cx="50%" cy="50%" r="30%" />
+            <circle class="animate" cx="50%" cy="50%" r="40%" />
+            <circle class="animate" cx="50%" cy="50%" r="50%" />
+        </svg>
+        <div class="locationIcon"></div>
+        <div class="evacuationText">Evacuate immediately</div>
+        <div class="eqPoint"></div>
+        <button onclick="pauseAudio();" type="button" id="pause"></button>
+        <div id="icon_off"></div>
+    </div>
+    <script>
+        $("div.wrapper").on("swipeleft", swipeleftHandler);
+        function swipeleftHandler(event) {
+            location.href = "./p3.html";
+        }
+    </script>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="273.58" height="33" viewBox="0 0 273.58 33">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:none;stroke:#858585}
+        </style>
+    </defs>
+    <g id="prefix__그룹_645" data-name="그룹 645" transform="translate(-42.096 -496)">
+        <g id="prefix__그룹_625" data-name="그룹 625">
+            <text id="prefix__Area_of_interest_2_" data-name="Area of interest 2" transform="translate(70 510)" style="font-size:12px;font-family:RobotoCondensed-Bold,Roboto Condensed;font-weight:700;fill:#681a6e">
+                <tspan x="0" y="0">Area of </tspan><tspan x="0" y="11">interest 2</tspan>
+            </text>
+            <path id="prefix__선_3" d="M0 0L231.213 0" class="prefix__cls-2" data-name="선 3" transform="translate(42.096 527.5)"/>
+            <g id="prefix__pin" transform="translate(-153 69)">
+                <path id="prefix__사각형_1404" d="M0 0H16V16H0z" data-name="사각형 1404" transform="translate(200 435)" style="fill:none"/>
+                <path id="prefix__패스_276" d="M6.23 8.962A2.638 2.638 0 0 0 8.872 6.32 2.719 2.719 0 0 0 6.23 3.583a2.638 2.638 0 0 0-2.643 2.642A2.785 2.785 0 0 0 6.23 8.962zM1.794 1.79a6.272 6.272 0 0 1 8.87 8.87L6.23 15.1l-4.436-4.44a6.443 6.443 0 0 1 0-8.87z" data-name="패스 276" transform="translate(201.079 435.05)" style="fill-rule:evenodd;fill:#681a6e"/>
+            </g>
+            <path id="prefix__선_3-2" d="M0 0L31.918 0" class="prefix__cls-2" data-name="선 3" transform="translate(283.758 527.5)"/>
+            <text id="prefix__Seo-gu_Daejeon" data-name="Seo-gu, Daejeon" transform="translate(127 518)" style="font-family:Teko-Medium,Teko;font-weight:500;font-size:23px;fill:#681a6e">
+                <tspan x="0" y="0">Seo-gu, Daejeon</tspan>
+            </text>
+            <text id="prefix___2_7" data-name="2.7" transform="translate(290 519)" style="font-size:22px;font-family:Teko-Medium,Teko;font-weight:500;fill:#681a6e">
+                <tspan x="0" y="0">2.7</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

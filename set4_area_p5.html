@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
+    <title>Multimedia Mobile Alert</title>
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/animate.min.css">
+    <!-- jquery -->
+    <script src="./assets/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/lib/jquery.mobile.custom.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper p4 set4area">
+        <header>
+            <nav id=main_menu>
+                <a class="home" href="./index.html"></a>
+                <h1 class="title">P5: Situation Board (Breaking News)</h1>
+                <a class="setting" href="./setting.html"></a>
+            </nav>
+        </header>
+        <div class="issued">
+            ※ Source: KMA
+        </div>
+        <div class="board">
+            Earthquake (magnitude 5.9) occurs<br>
+            12 km north of Pohang at 12:20 p.m.
+        </div>
+        <div class="map p5 animated fadeIn slow">
+            <div class="pin1"></div>
+            <div class="pin2"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="locations">
+            <div class="pin1"></div>
+            <div class="pin2"></div>
+        </div>
+        <div class="buttons">
+            <button class="news" onclick="toNews()">Breaking news</button>
+            <button class="sns" onclick="toSNS()">Social media</button>
+        </div>
+    </div>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>

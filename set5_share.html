@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
+    <title>Multimedia Mobile Alert</title>
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/animate.min.css">
+    <!-- jquery -->
+    <script src="./assets/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/lib/jquery.mobile.custom.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper set share">
+        <header>
+            <nav id=main_menu>
+                <a class="home" href="./index.html"></a>
+                <h1 class="title">User Settings</h1>
+                <a class="setting" href="./setting.html"></a>
+            </nav>
+        </header>
+        <div class="contents">
+
+            <h1 class="title">SNS
+            </h1>
+            <h2>Register your social media accounts to search and share information.
+            </h2>
+
+            <ul class="snsList">
+                <li>
+                    <i class="insta"></i><input id="instaID" type="search" placeholder="Enter your ID."></li>
+                <li>
+                    <i class="facebook"></i><input type="search" placeholder="Enter your ID.">
+                </li>
+                <li>
+                    <i class="twitter"></i><input type="search" placeholder="Enter your ID.">
+                </li>
+            </ul>
+            <div class="terms">
+                <div class="agree">
+                    <h3>Do you agree to make the disaster information <br>
+                        you have shared available for public use?</h3>
+                    <div class="buttons">
+                        <div class="yes">YES</div>
+                        <div class="no">NO</div>
+                    </div>
+                </div>
+                <div class="agree">
+                    <h3>Do you agree to have your contact details disclosed <br>
+                        when the information you share is made available to the public?</h3>
+                    <div class="buttons">
+                        <div class="yes">YES</div>
+                        <div class="no">NO</div>
+                    </div>
+                </div>
+            </div>
+            <a class="button" id="linkTosetShare" onclick="moveToInstaFeeds()"> </a>
+        </div>
+    </div>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>

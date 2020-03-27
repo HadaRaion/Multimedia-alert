@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="60" viewBox="0 0 38 60">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:#2d2d2d}.prefix__cls-2{fill:none;stroke:#2d2d2d;stroke-width:3px}
+        </style>
+    </defs>
+    <g id="prefix__그룹_650" data-name="그룹 650" transform="translate(-305 -545)">
+        <g id="prefix__그룹_603" data-name="그룹 603">
+            <text id="prefix__Alerta_recibida" data-name="Alerta recibida" transform="translate(324 591)" style="font-size:12px;font-family:RobotoCondensed-Bold,Roboto Condensed;font-weight:700;letter-spacing:-.01em;fill:#2d2d2d">
+                <tspan x="-14.469" y="0">Alerta</tspan><tspan x="-18.936" y="11">recibida</tspan>
+            </text>
+            <g id="prefix__타원_245" class="prefix__cls-2" data-name="타원 245" transform="translate(308 545)">
+                <circle cx="16" cy="16" r="16" style="stroke:none"/>
+                <circle cx="16" cy="16" r="14.5" style="fill:none"/>
+            </g>
+            <g id="prefix__그룹_229" data-name="그룹 229" transform="translate(315.2 553)">
+                <path id="prefix__패스_848" d="M8.766.5v15.96a.361.361 0 0 1-.336.336.52.52 0 0 1-.336-.168l-4.536-4.364H.366c-.168 0-.168 0-.336-.168s0-.168 0-.336V5.04c0-.168 0-.168.168-.336a.587.587 0 0 1 .336-.168h3.192L8.262 0H8.6c.166.168.166.168.166.5z" class="prefix__cls-3" data-name="패스 848" transform="translate(.044)"/>
+                <path id="prefix__빼기_2" d="M4.477 13.847a.661.661 0 0 1-.438-.088l-1.23-1.229a.107.107 0 0 0-.024-.062.081.081 0 0 0-.063-.025v-.088c0-.086 0-.175.088-.175A7.122 7.122 0 0 0 5 6.913a7.038 7.038 0 0 0-2.191-5.267c-.088 0-.088-.089-.088-.175v-.088a.086.086 0 0 1 .088-.088L4.038.066A.257.257 0 0 1 4.224 0a.58.58 0 0 1 .253.066 9.621 9.621 0 0 1 2.545 4.389 9.712 9.712 0 0 1 0 5 9.621 9.621 0 0 1-2.545 4.389zm-2.722-2.634a.482.482 0 0 1-.438-.175L.088 9.809a.107.107 0 0 0-.024-.062A.081.081 0 0 0 0 9.722v-.089c0-.086 0-.175.088-.175a3.529 3.529 0 0 0 1.054-2.545A3.531 3.531 0 0 0 .088 4.367.273.273 0 0 1 0 4.192V4.1a.086.086 0 0 1 .088-.088l1.229-1.225c.093-.093.157-.131.219-.131s.126.038.22.131A5.768 5.768 0 0 1 3.512 7a5.768 5.768 0 0 1-1.756 4.213z" class="prefix__cls-3" data-name="빼기 2" transform="translate(10.789 1.05)"/>
+            </g>
+        </g>
+        <path id="prefix__선_25" d="M0 0L21 21" class="prefix__cls-2" data-name="선 25" transform="translate(313.5 550.5)"/>
+    </g>
+</svg>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
+    <title>Multimedia Mobile Alert</title>
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/animate.min.css">
+    <!-- jquery -->
+    <script src="./assets/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/lib/jquery.mobile.custom.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper set bluetooth">
+        <header>
+            <nav id=main_menu>
+                <a class="home" href="./index.html"></a>
+                <h1 class="title">User Settings</h1>
+                <a class="setting" href="./setting.html"></a>
+            </nav>
+        </header>
+        <div class="contents">
+
+            <h1 class="title">Bluetooth
+            </h1>
+            <h2>Select the device(s)<br>
+                you would like to pair.</h2>
+            <form class="devices">
+                <h3 class="deviceList">Available devices</h3>
+                <ul>
+                    <li>
+                        <div class="deviceIcon"></div>
+                        <label class="deviceName">Smart speaker
+                            <input type="checkbox" checked>
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <div class="deviceIcon"></div>
+                        <label class="deviceName">Light bar
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <div class="deviceIcon"></div>
+                        <label class="deviceName">Car infotainment
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <div class="deviceIcon"></div>
+                        <label class="deviceName">Wearable device
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>

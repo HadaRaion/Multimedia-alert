@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110.75" height="133" viewBox="0 0 110.75 133">
+    <defs>
+        <style>
+            .cls-1{fill:#910004}.cls-2{clip-path:url(#clip-path)}.cls-3{clip-path:url(#clip-path-2)}.cls-4{fill:none;stroke:#910004}.cls-5,.cls-8{fill:#fff}.cls-5{font-size:13px;font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;font-weight:500}.cls-6,.cls-9{letter-spacing:-.015em}.cls-7{letter-spacing:.05em}.cls-8{font-size:15px;font-family:NotoSansCJKkr-Black,Noto Sans CJK KR;font-weight:800}.cls-9{font-size:16px;font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR}.cls-10,.cls-9{font-weight:700}.cls-10{font-size:18px;font-family:HelveticaNeue-Bold,Helvetica Neue}
+        </style>
+        <clipPath id="clip-path">
+            <path id="패스_151" d="M0-11.747h15v-15H0z" class="cls-1" data-name="패스 151" transform="translate(0 26.747)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="사각형_9" d="M0 0h25.038v19.486H0z" class="cls-1" data-name="사각형 9"/>
+        </clipPath>
+    </defs>
+    <g id="그룹_285" data-name="그룹 285" transform="translate(-235 -288)">
+        <g id="그룹_14" data-name="그룹 14" transform="translate(283 406)">
+            <g id="그룹_13" class="cls-2" data-name="그룹 13">
+                <g id="그룹_12" data-name="그룹 12" transform="translate(-5.019 -3.925)">
+                    <g id="그룹_11" class="cls-3" data-name="그룹 11">
+                        <g id="그룹_10" data-name="그룹 10" transform="translate(5.019 3.925)">
+                            <path id="패스_150" d="M-5.949-11.747a7.5 7.5 0 0 0 7.5-7.5 7.5 7.5 0 0 0-7.5-7.5 7.5 7.5 0 0 0-7.5 7.5 7.5 7.5 0 0 0 7.5 7.5" class="cls-1" data-name="패스 150" transform="translate(13.449 26.747)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <path id="선_18" d="M0 104V0" class="cls-4" data-name="선 18" transform="translate(290.5 309.5)"/>
+        <g id="그룹_225" data-name="그룹 225" transform="translate(118 4.541)">
+            <path id="패스_980" d="M461.75 269.714l-55.417 17.616L351 269.714v-42.206h110.75z" class="cls-1" data-name="패스 980" transform="translate(-234 55.952)"/>
+            <text id="포항_북부_12km" class="cls-5" data-name="포항 북부 12km" transform="translate(172 304)">
+                <tspan x="-43.953" y="0" class="cls-6">포항 북부</tspan><tspan y="0"> 1</tspan><tspan y="0" class="cls-7">2</tspan><tspan y="0">km</tspan>
+            </text>
+            <text id="규모_5.9" class="cls-8" data-name="규모 5.9" transform="translate(172 323)">
+                <tspan x="-27.781" y="0" class="cls-6">규모</tspan><tspan y="0" class="cls-9"> </tspan><tspan y="0" class="cls-10">5.9</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

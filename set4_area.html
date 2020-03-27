@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
+    <title>Multimedia Mobile Alert</title>
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/animate.min.css">
+    <!-- jquery -->
+    <script src="./assets/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/lib/jquery.mobile.custom.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper set area">
+        <header>
+            <nav id=main_menu>
+                <a class="home" href="./index.html"></a>
+                <h1 class="title">User Settings</h1>
+                <a class="setting" href="./setting.html"></a>
+            </nav>
+        </header>
+        <div class="contents">
+
+            <h1 class="title">Areas of interest</h1>
+            <h2>You can designate not just<br>
+                your primary location,<br> 
+                but also other areas<br>
+                of interest for which you<br> 
+                can receive disaster alerts.</h2>
+            <form class="selectArea">
+                <label class="container">
+                    <input type="checkbox" checked>
+                    <span class="checkmark"></span>
+                    <span class="adress">Suseong-gu, Daegu</span>
+                </label>
+                <label class="container">
+                    <input type="checkbox" checked id="set2ndArea">
+                    <span class="checkmark"></span>
+                    <span class="adress">Seo-gu, Daejeon</span>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <span class="adress"> </span>
+                </label>
+                <a class="button" id="linkTosetAreaP5" onclick="changeLink()"></a>
+            </form>
+        </div>
+    </div>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>

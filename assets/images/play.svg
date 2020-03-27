@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51.667" height="51.667" viewBox="0 0 51.667 51.667">
+    <defs>
+        <style>
+            .cls-1{opacity:.4}.cls-2,.cls-5{fill:none}.cls-2{stroke:#fff;stroke-width:2px}.cls-3{fill:#fff}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="재생아이콘" transform="translate(-159.167 -128.167)">
+        <path id="패스_882" d="M25.5 0A25.5 25.5 0 1 1 0 25.5 25.5 25.5 0 0 1 25.5 0z" class="cls-1" data-name="패스 882" transform="translate(159.5 128.5)"/>
+        <g id="타원_1" class="cls-2" data-name="타원 1" transform="translate(159.167 128.167)">
+            <circle cx="25.833" cy="25.833" r="25.833" class="cls-4"/>
+            <circle cx="25.833" cy="25.833" r="24.833" class="cls-5"/>
+        </g>
+        <g id="그룹_166" data-name="그룹 166" transform="translate(179.167 142.167)">
+            <path id="패스_855" d="M-12-2.608s-2.489-1.836-2.489 1.257v20.935s0 3.093 2.489 1.257l13.4-9.889s2.489-1.836 0-3.672z" class="cls-3" data-name="패스 855" transform="translate(14.486 3.149)"/>
+        </g>
+    </g>
+</svg>

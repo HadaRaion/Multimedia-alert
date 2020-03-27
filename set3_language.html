@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
+    <title>Multimedia Mobile Alert</title>
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/animate.min.css">
+    <!-- jquery -->
+    <script src="./assets/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/lib/jquery.mobile.custom.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper set language">
+        <header>
+            <nav id=main_menu>
+                <a class="home" href="./index.html"></a>
+                <h1 class="title">User Settings</h1>
+                <a class="setting" href="./setting.html"></a>
+            </nav>
+        </header>
+        <div class="contents">
+
+            <h1 class="title">Language</h1>
+            <h2>Choose the language<br>
+                in which you want<br>
+                to receive disaster alerts.</h2>
+            <form class="select">
+                <div class="select-group">
+                    <input type="radio" id="english" name="r-group" checked>
+                    <label class="button" for="english">English</label>
+                    <input type="radio" id="korean" name="r-group">
+                    <label class="button" for="korean">한국어</label>
+                    <input type="radio" id="japanese" name="r-group">
+                    <label class="button" for="japanese">日本語</label>
+                    <input type="radio" id="chinese" name="r-group">
+                    <label class="button" for="chinese">中國語</label>
+                    <input type="radio" id="spanish" name="r-group">
+                    <label class="button" for="spanish">español</label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>

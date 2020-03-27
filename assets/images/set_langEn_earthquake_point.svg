@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="123" viewBox="0 0 116 123">
+    <defs>
+        <style>
+            .cls-1{fill:#910004}.cls-2{fill:none;stroke:#910004}.cls-3{clip-path:url(#clip-path)}.cls-4{clip-path:url(#clip-path-2)}.cls-5,.cls-6{fill:#fff}.cls-5{font-size:11px;font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;font-weight:500;letter-spacing:.01em}.cls-6{font-size:14px;font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR;font-weight:700}
+        </style>
+        <clipPath id="clip-path">
+            <path id="패스_151" d="M0-11.747h15v-15H0z" class="cls-1" data-name="패스 151" transform="translate(0 26.747)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="사각형_9" d="M0 0h25.038v19.486H0z" class="cls-1" data-name="사각형 9"/>
+        </clipPath>
+    </defs>
+    <g id="그룹_367" data-name="그룹 367" transform="translate(-233 -288)">
+        <path id="선_18" d="M0 99L1 0" class="cls-2" data-name="선 18" transform="translate(290.5 305.5)"/>
+        <g id="그룹_14" data-name="그룹 14" transform="translate(283 396)">
+            <g id="그룹_13" class="cls-3" data-name="그룹 13">
+                <g id="그룹_12" data-name="그룹 12" transform="translate(-5.019 -3.925)">
+                    <g id="그룹_11" class="cls-4" data-name="그룹 11">
+                        <g id="그룹_10" data-name="그룹 10" transform="translate(5.019 3.925)">
+                            <path id="패스_150" d="M-5.949-11.747a7.5 7.5 0 0 0 7.5-7.5 7.5 7.5 0 0 0-7.5-7.5 7.5 7.5 0 0 0-7.5 7.5 7.5 7.5 0 0 0 7.5 7.5" class="cls-1" data-name="패스 150" transform="translate(13.449 26.747)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="그룹_263" data-name="그룹 263" transform="translate(-2)">
+            <path id="패스_980" d="M467 269.134l-58.044 17.373L351 269.134v-41.626h116z" class="cls-1" data-name="패스 980" transform="translate(-116 60.492)"/>
+            <text id="Pohang_North_12km" class="cls-5" data-name="Pohang North 12km" transform="translate(293 305.998)">
+                <tspan x="-53.207" y="0">Pohang North 12km</tspan>
+            </text>
+            <text id="scale_5.9" class="cls-6" data-name="scale 5.9" transform="translate(293 325)">
+                <tspan x="-29.589" y="0">scale 5.9</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
