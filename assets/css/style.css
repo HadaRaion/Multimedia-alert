@@ -400,7 +400,8 @@ audio {
 
 /*----- P1 second EQ -----*/
 .wrapper.second .eqPoint {
-    background-image: url(../images/earthquake_point_second.png) center no-repeat;
+    background: url(../images/earthquake_point_second.png) center no-repeat;
+    background-size: contain;
 }
 
 /*----- P2 -----*/
