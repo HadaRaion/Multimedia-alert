@@ -121,11 +121,11 @@ audio {
 }
 
 .wrapper.firstEQ .steps {
-    width: 307px;
-    height: 461px;
+    width: 290px;
+    height: 451px;
     background: url(../images/process_firstEQ.svg);
     background-size: cover;
-    margin: 65px 0 0 38px;
+    margin: 65px 0 0 55px;
 }
 
 .wrapper.secondEQ .steps {
@@ -570,23 +570,26 @@ audio {
 .wrapper.p4 > .locations div {
     position: relative;
     width: 274px;
-    height: 33px;
+    height: 27px;
+    margin-top: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .wrapper.p4 > .locations div.pin1 {
-    width: 275px;
-    background: url(../images/p4pin1_location.svg);
-    background-size: cover;
+    height: 28px;
+    background-image: url(../images/p4pin1_location.svg);
+
+
 }
 
 .wrapper.p4 > .locations div.pin2 {
-    background: url(../images/p4pin2_location.svg);
-    background-size: cover;
+    background-image: url(../images/p4pin2_location.svg);
+    background-size: contain;
 }
 
 .wrapper.p4 > .locations div.pin3 {
-    background: url(../images/p4pin3_location.svg);
-    background-size: cover;
+    background-image: url(../images/p4pin3_location.svg);
 }
 
 .wrapper.p4 > .buttons {
