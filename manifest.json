@@ -3,7 +3,7 @@
   "name": "Multimedia Mobile Alert - Earthquake case.",
   "icons": [
     {
-      "src": "./assets/images/111@3x.png",
+      "src": "./assets/images/homescreen192.png",
       "sizes": "192x192",
       "type": "image/png"
     }

@@ -131,8 +131,8 @@ audio {
 .wrapper.secondEQ .steps {
     width: 284px;
     height: 366px;
-    background: url(../images/process_secondEQ.png);
-    background-size: cover;
+    background-image: url(../images/process_secondEQ.png);
+    background-size: contain;
     margin: 65px auto 0;
 }
 
@@ -202,12 +202,12 @@ audio {
 }
 
 .wrapper .board1 .eqTime {
-    background: url(../images/eqTime1.svg) center no-repeat;
+    background: url(../images/eqTime1.png) center no-repeat;
     background-size: cover;
 }
 
 .wrapper .board1 .location {
-    background: url(../images/location1.svg) center no-repeat;
+    background: url(../images/location1.png) center no-repeat;
     background-size: cover;
 }
 
@@ -263,12 +263,13 @@ audio {
 }
 
 .wrapper .eqPoint {
-    width: 122px;
+    width: 121.3px;
     height: 133px;
     position: absolute;
     top: 269px;
     left: 230px;
-    background: url(../images/earthquake_point.svg) center no-repeat;
+    background: url(../images/earthquake_point.png) no-repeat;
+    background-size: contain;
 }
 
 .wrapper button#pause {
@@ -283,19 +284,19 @@ audio {
 }
 
 .wrapper #icon_off {
-    width: 40px;
+    width: 42px;
     height: 60px;
     position: absolute;
     display: block;
     z-index: 10;
     top: 545px;
     left: 304px;
-    background-image: url(../images/icon_off.svg);
+    background-image: url(../images/icon_off.png);
     background-size: cover;
 }
 
 .wrapper #icon_off.active {
-    background-image: url(../images/icon_on.svg);
+    background-image: url(../images/icon_on.png);
 }
 
 /*----- SVG circle radio P1-----*/
@@ -347,11 +348,11 @@ audio {
 
 /*----- P1 -----*/
 .wrapper.p1 .board1 .eqTime {
-    background: url(../images/eqTime.svg) center no-repeat;
+    background-image: url(../images/eqTime2.png) no-repeat;
 }
 
 .wrapper.p1 .board1 .location {
-    background: url(../images/location.svg) center no-repeat;
+    background-image: url(../images/location2.png) no-repeat;
 }
 
 /*----- SVG circle radio P2-----*/
@@ -399,7 +400,7 @@ audio {
 
 /*----- P1 second EQ -----*/
 .wrapper.second .eqPoint {
-    background: url(../images/earthquake_point_second.svg) center no-repeat;
+    background: url(../images/earthquake_point_second.png) center no-repeat;
 }
 
 /*----- P2 -----*/
@@ -481,11 +482,6 @@ audio {
 }
 
 /*----- P3 -----*/
-
-.wrapper.p3 .board2 > div.estTime {
-    background: url(../images/eq_effect.png);
-    background-size: cover;
-}
 
 .wrapper.p3 .board2 > div.ongoing > span {
     font-family: Teko;
@@ -571,22 +567,23 @@ audio {
     position: relative;
     width: 274px;
     height: 33px;
+    background-size: cover;
 }
 
 .wrapper.p4 > .locations div.pin1 {
     width: 275px;
-    background: url(../images/p4pin1_location.svg);
-    background-size: cover;
+    background-image: url(../images/p4pin1_location.png);
+
 }
 
 .wrapper.p4 > .locations div.pin2 {
-    background: url(../images/p4pin2_location.svg);
-    background-size: cover;
+    background-image: url(../images/p4pin2_location.png);
+
 }
 
 .wrapper.p4 > .locations div.pin3 {
-    background: url(../images/p4pin3_location.svg);
-    background-size: cover;
+    background-image: url(../images/p4pin3_location.png);
+
 }
 
 .wrapper.p4 > .buttons {
@@ -631,17 +628,17 @@ audio {
 }
 
 .wrapper.p4.second > .locations div.pin1 {
-    background: url(../images/p4second_pin1_location.svg);
+    background-image: url(../images/p4second_pin1_location.png);
     background-size: cover;
 }
 
 .wrapper.p4.second > .locations div.pin2 {
-    background: url(../images/p4second_pin2_location.svg);
+    background-image: url(../images/p4second_pin2_location.png);
     background-size: cover;
 }
 
 .wrapper.p4.second > .locations div.pin3 {
-    background: url(../images/p4second_pin3_location.svg);
+    background-image: url(../images/p4second_pin3_location.png);
     background-size: cover;
 }
 
@@ -805,7 +802,7 @@ audio {
 .wrapper.article article .title {
     width: 328px;
     height: 132px;
-    background-image: url(../images/article_title.svg);
+    background-image: url(../images/article_title.png);
     background-size: cover;
 }
 
@@ -1243,12 +1240,12 @@ audio {
 
 /*----- Language Spanish P2 -----*/
 .wrapper.p2.set3.Spanish .board1 .eqTime {
-    background: url(../images/set_langSp_eqTime.svg) center no-repeat;
+    background: url(../images/set_langSp_eqTime.png) center no-repeat;
     background-size: cover;
 }
 
 .wrapper.p2.set3.Spanish .board1 .location {
-    background: url(../images/set_langSp_location.svg) center no-repeat;
+    background: url(../images/set_langSp_location.png) center no-repeat;
     background-size: cover;
 }
 
@@ -1256,7 +1253,7 @@ audio {
     left: 32px;
 }
 .wrapper.p2.set3.Spanish .eqPoint {
-    background: url(../images/set_langSp_earthquake_point.svg) bottom center no-repeat;
+    background: url(../images/set_langSp_earthquake_point.png) bottom center no-repeat;
     background-size: cover;
 }
 
@@ -1268,11 +1265,11 @@ audio {
     width: 38px;
     height: 60px;
     left: 305px;
-    background-image: url(../images/setSp_icon_off.svg);
+    background-image: url(../images/setSp_icon_off.png);
 }
 
 .wrapper.p2.set3.Spanish #icon_off.active {
-    background-image: url(../images/setSp_icon_on.svg);
+    background-image: url(../images/setSp_icon_on.png);
 }
 
 /*----- Area -----*/
